@@ -1,0 +1,9 @@
+# Mark non-TS files as vendored (omitted from stats)
+*.css linguist-vendored
+*.json linguist-vendored
+*.mjs linguist-vendored
+*.sh linguist-vendored
+
+# Explicitly mark TypeScript files as detectable
+*.ts linguist-detectable=true
+*.tsx linguist-detectable=true
